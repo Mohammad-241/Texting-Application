@@ -74,7 +74,7 @@ def main():
     #Listening to the client connections
     while 1:
 
-        client, address = server.accept() #will keep on listening to any connections of the client (will give 2 values which is client and address)
+        client, address = server.accept() #will keep on listening to any connections of the client 
 
         print(f"Successfully connected to the client {address[0]} {address [1]}")
 
